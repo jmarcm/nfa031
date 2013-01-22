@@ -27,7 +27,8 @@ public class equation_second_degre {
 			x1 = (-b+R)/(2*a);
 			x2 = (-b-R)/(2*a);
 			System.out.println("L'Žquation admet comme solutions deux racines distinctes : " +x1 +" et " +x2);
-		}else{
+		}
+		if (D<0) {
 			System.out.println("L'Žquation n'admet pas de racine rŽelle");
 		}
 
