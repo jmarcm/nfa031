@@ -31,7 +31,5 @@ public class equation_second_degre {
 		if (D<0) {
 			System.out.println("L'Žquation n'admet pas de racine rŽelle");
 		}
-
 	}
-
 }
